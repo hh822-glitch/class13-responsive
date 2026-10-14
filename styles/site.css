@@ -148,3 +148,18 @@ img {
     flex-direction: row;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+ body {
+  background-color: #000000;
+  color: white;
+ }
+
+ header {
+  background-color: #2a2a2a;
+ }
+
+ a {
+  color: #7bb3ff;
+ }
+}
